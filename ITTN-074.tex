@@ -1,5 +1,4 @@
-\documentclass[PMO,authoryear,toc]{lsstdoc}
-\input{meta}
+\documentclass[PMO,authoryear,lsstdraft,toc]{lsstdoc}
 
 % Package imports go here.
 
@@ -29,13 +28,13 @@ Cristian Silva
 \setDocRef{ITTN-074}
 \setDocUpstreamLocation{\url{https://github.com/lsst-it/ittn-074}}
 
-\date{\vcsDate}
+\date{\today}
 
 % Optional: name of the document's curator
 % \setDocCurator{The Curator of this Document}
 
 \setDocAbstract{%
-Pixel Zone
+The following document outlines the controls in place inside the Vera C. Rubin Observatory's Pixel Zone
 }
 
 % Change history defined here.
@@ -43,7 +42,7 @@ Pixel Zone
 % Fields: VERSION, DATE, DESCRIPTION, OWNER NAME.
 % See LPM-51 for version number policy.
 \setDocChangeRecord{%
-  \addtohist{1}{YYYY-MM-DD}{Unreleased.}{Cristian Silva}
+  \addtohist{1}{2024-06-25}{First Version.}{Cristian Silva}
 }
 
 
@@ -56,6 +55,8 @@ Pixel Zone
 
 % ADD CONTENT HERE
 % You can also use the \input command to include several content files.
+
+\input{content.tex}
 
 \appendix
 % Include all the relevant bib files.
